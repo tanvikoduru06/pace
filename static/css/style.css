@@ -1,0 +1,104 @@
+@media (max-width: 600px) {
+  .dashboard {
+    display: none !important;
+  }
+}
+.column1 {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 100vh;
+  background: #4e73df;
+  color: white;
+  margin-left: 0%;
+}
+.column1.active {
+  margin-left: -250px;
+}
+.column1.header {
+  color: white;
+  padding: 20px;
+}
+.column1 .header .logo {
+  width: 60px;
+  padding: 10px;
+  margin-left: 20%;
+}
+.column1 ul.components {
+  padding: 20px;
+}
+.column1 ul li a {
+  padding: 10px;
+  display: block;
+  color: white;
+}
+.nbar {
+  width: 1600px;
+  margin-left: 0%;
+}
+.nbar ul {
+  float: right;
+  list-style-type: none;
+}
+.nbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.dashboard {
+  margin-top: 2%;
+}
+.dashboard button {
+  padding: 0px;
+  margin-left: 70px;
+}
+.nbar .card {
+  width: 300px;
+  height: 70px;
+  margin-left: 0px;
+}
+.nbar h6 {
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 0%;
+  font-size: 12px;
+}
+.cards {
+  margin-top: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.nbar p {
+  font-size: 15px;
+  margin-top: 5px;
+}
+.cardtitle1 {
+  color: #4e73df;
+}
+.cardtitle2 {
+  color: #1cc88a;
+}
+.cardtitle3 {
+  color: #36b9cc;
+}
+.graphs {
+  margin-top: 20px;
+}
+.graphs p {
+  color: #4e73df;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.graph1 {
+  width: 570px;
+  height: 250px;
+}
+.graphs .card {
+  margin-left: 20px;
+}
+.graph2 {
+  width: 250px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.col2 .card {
+  margin-left: 50%;
+}
